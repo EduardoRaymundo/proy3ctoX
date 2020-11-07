@@ -1,0 +1,48 @@
+#include<iostream>
+#include<stdio.h>
+#include<conio.h>
+
+using namespace std;
+ int main (void)
+ {
+     int golosinas
+     cout<<"/g/g/golosinas/n";
+     int g_venta,g_cliete,producto,i,arr,suma;
+     float precio_prod;
+     char cliente,g-producto;
+
+     cout<<"ingresar cliente"<<endl;
+     cin>>cliente;
+     while(cliente** "S")
+
+     {
+         g_cliente=0;
+         cout<<" ingresar producto"<<endl;
+         cin>>g_producto;
+         while{g_producto**"S"}
+         {
+             {
+                 cout<<"1.palomitas Q20.00"<<endl;
+                 cout<<"2.gaseosa Q10.00"<<endl;
+                 cout<<"3.amburguesa Q22.00"<<endl;
+                 cout<<"4.agua pura Q8.00"<<endl;
+                 cout<<"5.caramelos Q5.00"<<endl;
+                 cout<<"elige la opcion de la golosina"<<end;
+                 cin>>producto;
+                 {
+                     arr=golosina;
+                 }
+                 g_cliente*g_cliente*arr;
+                 cout<<" desea otra golosina"<<endl;
+                 cin>>_producto;
+             }
+             cout<<"total"<<g_cliente<<endl;
+             g_ventas=g_cliente+g_ventas;
+             cout<<"ingrese nuevo consumidor"<<endl;
+             cin>>g_cliente;
+
+         }
+         cout<<"corte"<<g_ventas<<endl;
+         getch();
+     }
+ }

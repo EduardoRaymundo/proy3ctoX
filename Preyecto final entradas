@@ -1,0 +1,71 @@
+#include <iostream>
+#define Tope 200
+ using namespace std;
+ void menu();
+ void ventaEntrada();
+     struct{
+         string codigo;
+         int cantidad;
+         int salas;
+    } clientes[TOPE];
+          int i=0;
+
+           int main() {
+               menu();
+
+               return 0;
+        }
+
+    void menu(){
+    int opc;
+
+     do{
+         cout << "-------------------------" << endl;
+         cout << "----Menu de Opciones-----" << endl;
+         cout << "-------------------------" <<endl<<endl;
+         cout << "1. venta de entradas" << endl;
+         cout << "2. total ingresos" << endl;
+         cout << "3. salir" << endl;
+         cout << endl;
+         cout << "seleccione su opcion : ";
+         cin >> opc;
+
+         switch (opc){
+        case 1:
+            ventaEntrada();
+            break;
+        case 2:
+            total ingresos();
+            break;
+
+        }
+
+     }while (opc < 3);
+
+    }
+
+
+
+//................................................................
+
+
+
+
+
+
+void ventaEntrada(){
+
+    if(i<=TOPE){
+
+       cout << "codigo del cliente: ";
+       cin >> clientes[i].codigo;
+       cout << "cantidad de entradas: ";
+       cin >> clientes[i].cantidad;
+       cout << "Sala Nro: ";
+       cin >> clientes [i].salas
+       cout >> endl;
+       cout << "cliente registrado finalizar" << endl << endl ;
+       i++;
+
+    }
+}

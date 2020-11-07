@@ -1,0 +1,61 @@
+include<iostream>
+#include<math.h>
+#include<string>
+using manespace std;
+        //cartelera de peliculas
+ class Ccafe{
+ private:
+    struct peli{
+    int id;
+    string titulo,anno,cla,cali;
+    }pelicula;
+ public:
+    void incluir (int id, string ti,string an,string cla,string cali){
+    pelicula.id =id;
+    peliula.titulo= ti;
+    pelicula.anno= an;
+    pelicula.cali=cali;
+    pelicula.cla=cla;
+    }
+  void mostrar(){
+      cout<<pelicula.id<<endl;
+      cout<<pelicula.titulo<<endl;
+      cout<<pelicula.cali<<endl;
+      cout<<pelicula.cla<<endl;
+      }
+  int main(){
+  int cant;
+  Ccafe pelis;
+  int opc,creg;
+  strig nm,cal,class,ann;
+  creg=1;
+  do{
+    cout<<"Control de Peliculas"<<endl;
+    cout<<"--------------"<<endl;
+    cout<<"1. Agregar Pelicula"<<endl;
+    cout<<"2.Ver"<<endl;
+    cout<<"3.Salir"<<endl;
+    cin>>opc;
+    switch (opc){
+    case 1:{
+
+       cou<<"Un nombre: "<<endl;
+       cin>>nm;
+       cout<<"Una calificacion: "<<endl;
+       cin>>cal;
+       cout<<"A駉 que salio: " <<endl;
+       cin>>clas;
+       pelis.incluir(creg++,nm,ann,clas,cal);
+       break;
+       system("cls");
+           }
+           case2:{
+           system("cls");
+           cout<<"la pelicula es:"<<endl;
+           }
+        }
+      }
+      while(opc!=3);
+      return 0;
+  }
+
